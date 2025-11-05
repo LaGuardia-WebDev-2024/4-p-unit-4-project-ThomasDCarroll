@@ -21,9 +21,10 @@ Select ONE Additional Feature to Add
   <meta charset="utf-8">
   <style>
 
-  body {font-family: "Indie Flower", cursive;
+  body {color: beige;
+        font-family: "Indie Flower", cursive;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         background-image: url(https://www.gian-cursio.net/wp-content/uploads/2018/03/Day-1-Afternoon.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -31,13 +32,55 @@ Select ONE Additional Feature to Add
 
   h1 {font-family: "Amatic SC", sans-serif;
       font-weight:bolder ;
-      font-size: 100px;}
+      font-size: 100px;
+      line-height: 10px;
+        text-shadow:
+                0 0 5px rgb(187, 127, 92),
+                0 0 10px rgb(187, 127, 92),
+                0 0 20px rgb(187, 127, 92),
+                0 0 40px rgb(187, 127, 92),
+                0 0 80px rgb(187, 127, 92);
+        padding: 20px;}
 
   h2 {font-family: "Amatic SC", sans-serif;
       font-weight:bolder ;
-      font-size: 75px}
+      font-size: 75px;
+      line-height: 10px;
+        text-shadow:
+                0 0 5px rgb(187, 127, 92),
+                0 0 10px rgb(187, 127, 92),
+                0 0 20px rgb(187, 127, 92),
+                0 0 40px rgb(187, 127, 92),
+                0 0 80px rgb(187, 127, 92);
+        padding: 20px;}
 
-  img {width: 1000px}
+  p {color: beige;
+    border: 2px solid beige;
+    background-color: rgba(51, 32, 19, 0.75);
+    align-content: center;
+    display: inline-block;
+    width: 60%;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;}
+
+  #map {width: 60%;}
+
+  img {border: 2px solid beige;}
+
+  .lists {color: beige;
+          border: 2px solid beige;
+          background-color: rgba(51, 32, 19, 0.75);
+          align-content: center;
+          display: inline-block;
+          text-align: left;
+          width: 60%;
+          padding: 0 10px 0 10px;
+          box-sizing: border-box;}
+
+  .divide {display: flex; 
+          align-items: center; 
+          width: 60%;
+          }
 
   </style>
 
@@ -50,20 +93,35 @@ Select ONE Additional Feature to Add
 
   <h1>Places to Visit in Arcadia Bay</h1>
 
-  <img src="https://static.wikia.nocookie.net/life-is-strange/images/4/49/Arcadia_bay.png/revision/latest/scale-to-width-down/1000?cb=20170313071440">
+  <img id="map"src="https://static.wikia.nocookie.net/life-is-strange/images/4/49/Arcadia_bay.png/revision/latest/scale-to-width-down/1000?cb=20170313071440">
   
   <h2>Blackwell Academy</h2>
   <hr>
+  <div class="divide">
+    <div>
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/4/4b/Blackwell_Academy-02.jpg/revision/latest/scale-to-width-down/1200?cb=20150607220506">
+    </div>
+    <div>
+      
+    </div>
+  </div>
   <p>About Content Element #1</p>
+  <ul class="lists">
+    <li>The starting point of the game.</li>
+    <li>Really nice atmosphere (I mean, everyones rich and its a private school so...)</li>
+  </ul>
   <br><br>
 
-  <h2>Content Element 2</h2>
+  <h2>Chloe's House</h2>
   <hr>
   <p>About Content Element #2</p>
   <br><br>
 
-  <h2>Content Element 3</h2>
+  <h2>Two Whales Diner</h2>
   <hr>
+  <div>
+    <img src="https://static.wikia.nocookie.net/life-is-strange/images/b/b3/Life-is-Strange_Ep2_DINER.jpg/revision/latest?cb=20150609221307">
+  </div>
   <p>About Content Element #3</p>
   <br><br>
 
