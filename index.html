@@ -77,10 +77,23 @@ Select ONE Additional Feature to Add
           padding: 0 10px 0 10px;
           box-sizing: border-box;}
 
-  .divide {display: flex; 
-          align-items: center; 
+  .divide {display: flex;
+          flex-wrap: nowrap; 
+          align-items: center;
+          justify-content: center; 
           width: 60%;
-          }
+          margin-left: auto;
+          margin-right: auto;
+          gap: 10px;}
+
+  .divide img {width: 100%;
+              flex: 100;
+              border: solid;
+              text-align: justify;
+              display: inline-block;display: inline-block;
+              flex-basis: auto;
+              height: 310px}
+              
 
   </style>
 
@@ -102,7 +115,7 @@ Select ONE Additional Feature to Add
       <img src="https://static.wikia.nocookie.net/life-is-strange/images/4/4b/Blackwell_Academy-02.jpg/revision/latest/scale-to-width-down/1200?cb=20150607220506">
     </div>
     <div>
-      
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/8/88/Blackwell-campus.png/revision/latest?cb=20160708144118">
     </div>
   </div>
   <p>About Content Element #1</p>
@@ -119,8 +132,13 @@ Select ONE Additional Feature to Add
 
   <h2>Two Whales Diner</h2>
   <hr>
-  <div>
-    <img src="https://static.wikia.nocookie.net/life-is-strange/images/b/b3/Life-is-Strange_Ep2_DINER.jpg/revision/latest?cb=20150609221307">
+  <div class="divide">
+    <div>
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/b/b3/Life-is-Strange_Ep2_DINER.jpg/revision/latest?cb=20150609221307">
+    </div>
+    <div>
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/d/d7/Lifeisstrangetumblr_nmatpdGRjz1tebye6o2_1280.jpg/revision/latest/scale-to-width-down/1000?cb=20150609221321">
+    </div>
   </div>
   <p>About Content Element #3</p>
   <br><br>
