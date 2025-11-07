@@ -1,9 +1,9 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
-[ ] One Google Font or Uploaded Font
-[ ] An Unordered **or** Ordered List (<ul> or <ol>)
-[ ] Three Images
+[ x ] Three Distinct CSS font-family Declarations
+[ x ] One Google Font or Uploaded Font
+[ x ] An Unordered **or** Ordered List (<ul> or <ol>)
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect 
@@ -18,84 +18,8 @@ Select ONE Additional Feature to Add
 
 <head>
   <title>Unit 4 Project</title>
+  <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
-  <style>
-
-  body {color: beige;
-        font-family: "Indie Flower", cursive;
-        text-align: center;
-        font-size: 30px;
-        background-image: url(https://www.gian-cursio.net/wp-content/uploads/2018/03/Day-1-Afternoon.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;}
-
-  h1 {font-family: "Amatic SC", sans-serif;
-      font-weight:bolder ;
-      font-size: 100px;
-      line-height: 10px;
-        text-shadow:
-                0 0 5px rgb(187, 127, 92),
-                0 0 10px rgb(187, 127, 92),
-                0 0 20px rgb(187, 127, 92),
-                0 0 40px rgb(187, 127, 92),
-                0 0 80px rgb(187, 127, 92);
-        padding: 20px;}
-
-  h2 {font-family: "Amatic SC", sans-serif;
-      font-weight:bolder ;
-      font-size: 75px;
-      line-height: 10px;
-        text-shadow:
-                0 0 5px rgb(187, 127, 92),
-                0 0 10px rgb(187, 127, 92),
-                0 0 20px rgb(187, 127, 92),
-                0 0 40px rgb(187, 127, 92),
-                0 0 80px rgb(187, 127, 92);
-        padding: 20px;}
-
-  p {color: beige;
-    border: 2px solid beige;
-    background-color: rgba(51, 32, 19, 0.75);
-    align-content: center;
-    display: inline-block;
-    width: 60%;
-    padding: 0 10px 0 10px;
-    box-sizing: border-box;}
-
-  #map {width: 60%;}
-
-  img {border: 2px solid beige;}
-
-  .lists {color: beige;
-          border: 2px solid beige;
-          background-color: rgba(51, 32, 19, 0.75);
-          align-content: center;
-          display: inline-block;
-          text-align: left;
-          width: 60%;
-          padding: 0 10px 0 10px;
-          box-sizing: border-box;}
-
-  .divide {display: flex;
-          flex-wrap: nowrap; 
-          align-items: center;
-          justify-content: center; 
-          width: 60%;
-          margin-left: auto;
-          margin-right: auto;
-          gap: 10px;}
-
-  .divide img {width: 100%;
-              flex: 100;
-              border: solid;
-              text-align: justify;
-              display: inline-block;display: inline-block;
-              flex-basis: auto;
-              height: 310px}
-              
-
-  </style>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -105,6 +29,8 @@ Select ONE Additional Feature to Add
 <body>
 
   <h1>Places to Visit in Arcadia Bay</h1>
+
+  <p>!! MAJOR SPOILERS AHEAD !!</p>
 
   <img id="map"src="https://static.wikia.nocookie.net/life-is-strange/images/4/49/Arcadia_bay.png/revision/latest/scale-to-width-down/1000?cb=20170313071440">
   
@@ -118,30 +44,66 @@ Select ONE Additional Feature to Add
       <img src="https://static.wikia.nocookie.net/life-is-strange/images/8/88/Blackwell-campus.png/revision/latest?cb=20160708144118">
     </div>
   </div>
-  <p>About Content Element #1</p>
   <ul class="lists">
     <li>The starting point of the game.</li>
     <li>Really nice atmosphere (I mean, everyones rich and its a private school so...)</li>
+    <li>The dorms are singles... For High Schoolers...</li>
+    <li>Loved all the school posters and little decorations, stuff like this helped make the world really immersive.</li>
   </ul>
   <br><br>
 
   <h2>Chloe's House</h2>
   <hr>
-  <p>About Content Element #2</p>
+  <div class="divide">
+    <div>
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/a/a2/Maxresdefaultmadsenhousre.jpg/revision/latest/scale-to-width-down/1000?cb=20150611153900">
+    </div>
+    <div>
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/0/03/Chloe_Room_view_from_bed.png/revision/latest/scale-to-width-down/1000?cb=20160809074505">
+    </div>
+  </div>
+  <ul class="lists">
+    <li>The Madsen household drama was... a plot point...</li>
+    <li>Chloe's room showed so much personality, and I really enjoyed all the little trinkets.</li>
+    <li>I really liked when Chloe and Max strung up the board with all their informaton on the Rachel Amber investigation.</li>
+    <li>Seeing stuff like the scratched out height chart on the wall and all of the drawings they did together as kids really helped show Chloe and Max's bond and I really liked these details.</li>
+  </ul>
   <br><br>
 
   <h2>Two Whales Diner</h2>
   <hr>
   <div class="divide">
     <div>
-      <img src="https://static.wikia.nocookie.net/life-is-strange/images/b/b3/Life-is-Strange_Ep2_DINER.jpg/revision/latest?cb=20150609221307">
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/b/b3/Life-is-Strange_Ep2_DINER.jpg/revision/latest/scale-to-width-down/1000?cb=20150609221307">
     </div>
     <div>
       <img src="https://static.wikia.nocookie.net/life-is-strange/images/d/d7/Lifeisstrangetumblr_nmatpdGRjz1tebye6o2_1280.jpg/revision/latest/scale-to-width-down/1000?cb=20150609221321">
     </div>
   </div>
-  <p>About Content Element #3</p>
+  <ul class="lists">
+    <li>I really liked this area of town, it felt so nostalgic for me and reminded me of when my family would go to the "Dam Diner" when I was younger.</li>
+    <li>I really wish I could try Joyce's cooking. I always got so hungry during these sections.</li>
+    <li>Loved Max and Chloe's debriefs.</li>
+    <li>The diner becoming a safe point during the storm just felt so correct.</li>
+  </ul>
   <br><br>
+
+  <h2>American Rust Junkyard</h2>
+  <hr>
+  <div class="divide">
+    <div>
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/0/07/Junkyard-ep2-maxandchloeenter.png/revision/latest/scale-to-width-down/1000?cb=20180318130749">
+    </div>
+    <div>
+      <img src="https://static.wikia.nocookie.net/life-is-strange/images/c/ca/Hideout-external.png/revision/latest/scale-to-width-down/1000?cb=20161116203753">
+    </div>
+  </div>
+  <ul class="lists">
+    <li>Why would anyone EVER make this their main hideout...</li>
+    <li>I liked the idea of this location, it just wasnt for me.</li>
+    <li>Frank's debut scared the life out of me omg.</li>
+    <li>Kind of a nothing burger not gonna lie.</li>
+  </ul>
 
 </body>
 </html>
