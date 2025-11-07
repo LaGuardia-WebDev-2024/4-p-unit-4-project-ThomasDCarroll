@@ -1,4 +1,4 @@
-  body {color: beige;
+  /* body {color: beige;
         font-family: "Indie Flower", cursive;
         text-align: center;
         font-size: 30px;
@@ -71,5 +71,81 @@
               text-align: justify;
               display: inline-block;display: inline-block;
               flex-basis: auto;
-              height: 310px}
-            
+              height: 310px} */
+
+        body {color: beige;
+        text-align: center;
+        align-content: center;
+        font-weight: bolder;
+        text-shadow:
+                0 0 5px rgb(141, 56, 7),
+                0 0 10px rgb(141, 56, 7),
+                0 0 20px rgb(141, 56, 7),
+                0 0 40px rgb(141, 56, 7),
+                0 0 80px rgb(141, 56, 7);}
+
+        h2 {font-family: "Amatic SC", sans-serif;
+        font-weight:bolder ;
+        font-size: 125px;}
+
+        p {font-family: "Schoolbell", cursive;
+        font-size: 30px;
+        width: 60%}
+
+        ul {font-family: "Schoolbell", cursive;
+        font-size: 30px;
+        width: 60%}
+
+   .section {
+   min-height: 100vh; /* Ensure sections are tall enough to scroll */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   text-align: center;
+   transition: background-color 0.5s ease;}
+
+   .arcadia {
+   Background-size:cover;
+   background-image:url(https://www.gian-cursio.net/wp-content/uploads/2018/03/Day-1-Afternoon.jpg)}
+
+   .blackwell-academy {
+   background-size:cover;
+   background-image:url(https://i.redd.it/wl04cm3job1b1.jpg)}
+
+   .madsen-house {
+   background-size:cover;
+   background-image:url(https://static.wikia.nocookie.net/life-is-strange/images/e/e7/ChloeRoom_EP3.jpg/revision/latest?cb=20150708025724)}
+
+   .two-whales {
+   background-size:cover;
+   background-image:url(https://static.wikia.nocookie.net/life-is-strange/images/b/b3/Life-is-Strange_Ep2_DINER.jpg/revision/latest?cb=20150609221307)}
+
+   .junkyard {
+   background-size:cover;
+   background-image:url(https://static.wikia.nocookie.net/life-is-strange/images/c/ca/Hideout-external.png/revision/latest?cb=20161116203753)}
+   
+   .beach {
+   background-size:cover;
+   background-image:url(https://static.wikia.nocookie.net/life-is-strange/images/6/60/Beach_Ep_4.png/revision/latest?cb=20170925101619)}
+  
+   .hospital {
+   background-size:cover;
+   background-image:url(https://static.wikia.nocookie.net/life-is-strange/images/4/41/Hospital_%28Prequel%29_-_BtSE3_-_Waiting_Room_02.png/revision/latest?cb=20190404221737)}
+
+   .barn {
+   background-size:cover;
+   background-image:url(https://static.wikia.nocookie.net/life-is-strange/images/0/06/Barn.jpg/revision/latest/scale-to-width-down/1200?cb=20170330192517)}
+
+   .dark-room {
+   background-size:cover;
+   background-image:url(https://static.wikia.nocookie.net/life-is-strange/images/1/14/Dark_Room_Ingame.jpg/revision/latest?cb=20160128013945)}
+
+   .lighthouse {
+   background-size:cover;
+   background-image:url(https://images6.alphacoders.com/954/954446.png)}
+
+   .debrief {
+   background-size:cover;
+   background-image:url(https://images6.alphacoders.com/679/679666.jpg)}
