@@ -76,39 +76,48 @@
         body {color: beige;
         text-align: center;
         align-content: center;
-        font-weight: bolder;
         text-shadow:
                 0 0 5px rgb(141, 56, 7),
                 0 0 10px rgb(141, 56, 7),
                 0 0 20px rgb(141, 56, 7),
                 0 0 40px rgb(141, 56, 7),
-                0 0 80px rgb(141, 56, 7);}
+                0 0 80px rgb(141, 56, 7);
+        margin-bottom: 0px;
+        margin-top: 0px;}
 
-        h2 {font-family: "Lexend", sans-serif;
-        font-weight:bolder ;
-        font-size: 125px;}
+        h2 {font-family: "DM Serif Text", serif;
+        font-size: 75px;
+        line-height: 10px;}
 
-        p {font-family: "Lexend", sans-serif;
+        p {font-family: "DM Serif Text", serif;
         font-size: 30px;
         width: 60%}
 
-        ul {font-family: "Lexend", sans-serif;
+        ul {font-family: "DM Serif Text", serif;
         font-size: 30px;
-        width: 60%}
+        width: 60%;
+        text-align: left}
 
-   .section {
-   min-height: 100vh; /* Ensure sections are tall enough to scroll */
+        div {margin: -1em;
+        border: -1em;
+        padding: -1em;}
+
+   .section {min-height: 70vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    color: white;
-   text-align: center;
-   transition: background-color 0.5s ease;}
+   text-align: center;}
 
-   .arcadia {
+   /* .lists {align-content: center;
+   display: inline-block;
+   padding: 0 10px 0 10px;
+   box-sizing: border-box;} */
+
+   .arcadia {min-height: 105vh;
    Background-size:cover;
-   background-image:url(https://www.gian-cursio.net/wp-content/uploads/2018/03/Day-1-Afternoon.jpg)}
+   background-image:url(https://www.gian-cursio.net/wp-content/uploads/2018/03/Day-1-Afternoon.jpg);}
 
    .blackwell-academy {
    background-size:cover;
@@ -146,6 +155,6 @@
    background-size:cover;
    background-image:url(https://images6.alphacoders.com/954/954446.png)}
 
-   .debrief {
+   .debrief {min-height: 105vh;
    background-size:cover;
    background-image:url(https://images6.alphacoders.com/679/679666.jpg)}
