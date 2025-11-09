@@ -5,22 +5,25 @@ document.addEventListener('DOMContentLoaded', () => {
    const finalSection = document.getElementById('final-section');
    const nextSection = document.getElementById('next-section');
    const hiSection = document.getElementById('hi-section');
-    const helloSection = document.getElementById('hello-section');
-     const nopeSection = document.getElementById('nope-section');
-     const yesSection = document.getElementById('yes-section');
-      const tadaSection = document.getElementById('tada-section');
+   const helloSection = document.getElementById('hello-section');
+   const nopeSection = document.getElementById('nope-section');
+   const tadaSection = document.getElementById('tada-section');
+   const bravoSection = document.getElementById('bravo-section');
+   const yesSection = document.getElementById('yes-section');
 
 
    const sections = [
-       { element: heroSection, className: 'blue-bg' },
-       { element: contentSection, className: 'green-bg' },
-       { element: finalSection, className: 'red-bg' }
-       { element: nextSection, className: 'yellow-bg' }
-       { element: hiSection, className: 'orange-bg' }
-       { element: helloSection, className: 'purple-bg' }
-       { element: nopeSection, className: 'grey-bg' }
-        { element: nopeSection, className: 'cool-bg' }
-         { element: tadaSection, className: 'amazing-bg' }
+       { element: heroSection, className: 'arcadia' },
+       { element: contentSection, className: 'blackwell-academy' },
+       { element: finalSection, className: 'madsen-house' }
+       { element: nextSection, className: 'two-whales' }
+       { element: hiSection, className: 'junkyard' }
+       { element: helloSection, className: 'beach' }
+       { element: nopeSection, className: 'hospital' }
+       { element: nopeSection, className: 'barn' }
+       { element: tadaSection, className: 'dark-room' }
+       { element: bravoSection, className: 'lighthouse' }
+       { element: yesSection, className: 'debrief' }
    ];
 
    function updateBackground() {
@@ -36,9 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
        }
    }
 
-   // Set initial background
    updateBackground();
 
-   // Listen for scroll events
    window.addEventListener('scroll', updateBackground);
 });
